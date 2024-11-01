@@ -1,0 +1,35 @@
+/* nav items */
+.nav-item {
+    margin: 5px;  /* add gap in between pills */
+}
+
+.nav-pills .nav-link {
+    color: black; /* inactive text color */
+    transition: background-color 0.5s ease, color 0.3s ease;
+    font-weight: 600;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #b5d9f1; /* hover color */
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(112, 138, 226); /* active link color */
+    color: white; /* active text color */
+}
+
+
+/* title */
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.text-hover {
+    color: initial; /* set the initial color */
+    transition: color 0.3s ease;
+}
+
+.text-hover:hover {
+    color: rgb(112, 138, 226);
+}
